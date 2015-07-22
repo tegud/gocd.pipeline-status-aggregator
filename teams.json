@@ -1,0 +1,7 @@
+[
+	{
+		"name": "moonstick",
+		"groups": ["Moonstick.JS"],
+		"livePipelines": ["^Moonstick-Live.?$"]
+	}
+]
