@@ -1,5 +1,9 @@
 [
 	{
+		"name": "IO",
+		"groups": ["Elasticsearch"]
+	},
+	{
 		"name": "moonstick",
 		"groups": ["Moonstick.JS"],
 		"livePipelines": ["^Moonstick-Live.?$"]
