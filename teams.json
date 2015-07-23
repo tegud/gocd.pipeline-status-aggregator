@@ -2,6 +2,12 @@
 	"defaultEnvironments": {
 		"live": {
 			"pipelines": ["Live", "Telford"]
+		},
+		"QA": {
+			"pipelines": ["(\-|\.)QA"]
+		},
+		"CI": {
+			"pipelines": ["(\-|\.)CI"]
 		}
 	},
 	"teams": [
@@ -9,7 +15,9 @@
 			"name": "IO",
 			"groups": ["Elasticsearch"],
 			"environments": {
-				"floor-11-server-cupboard": [".*"]
+				"floor-11-server-cupboard": {
+					"groups": [".*"]
+				}
 			}
 		},
 		{
