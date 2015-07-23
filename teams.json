@@ -2,7 +2,7 @@
 	"defaultEnvironments": [
 		{ "environment": "live", "pipelines": ["Live", "Telford"] },
 		{ "environment": "QA", "pipelines": ["(-|\\.)QA"] },
-		{ "environment": "CI", "pipelines": ["(-|\\.)CI"] },
+		{ "environment": "CI", "pipelines": ["(-|\\.)CI"] }
 	],
 	"teams": [
 		{
