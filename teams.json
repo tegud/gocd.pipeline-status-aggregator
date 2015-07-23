@@ -4,10 +4,10 @@
 			"pipelines": ["Live", "Telford"]
 		},
 		"QA": {
-			"pipelines": ["(\-|\.)QA"]
+			"pipelines": ["(\\-|\\.)QA"]
 		},
 		"CI": {
-			"pipelines": ["(\-|\.)CI"]
+			"pipelines": ["(\\-|\\.)CI"]
 		}
 	},
 	"teams": [
