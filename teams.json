@@ -1,11 +1,25 @@
-[
-	{
-		"name": "IO",
-		"groups": ["Elasticsearch"]
+{
+	"defaultEnvironments": {
+		"live": {
+			"pipelines": ["Live", "Telford"]
+		}
 	},
-	{
-		"name": "moonstick",
-		"groups": ["Moonstick.JS"],
-		"livePipelines": ["^Moonstick-Live.?$"]
-	}
-]
+	"teams": [
+		{
+			"name": "IO",
+			"groups": ["Elasticsearch"],
+			"environments": {
+				"floor-11-server-cupboard": [".*"]
+			}
+		},
+		{
+			"name": "moonstick",
+			"groups": ["Moonstick.JS"],
+			"environments": {
+				"live": {
+					"pipelines": ["^Moonstick-Live"]
+				}
+			}
+		}
+	]
+}
