@@ -9,7 +9,7 @@
 			"name": "IO",
 			"groups": ["Elasticsearch", "Kafka"],
 			"environments": [
-				{ "environment": "live", "groups": ["Kafka"] }
+				{ "environment": "live", "groups": ["Kafka"] },
 				{ "environment": "floor-11-server-cupboard", "groups": [".*"] }
 			]
 		},
