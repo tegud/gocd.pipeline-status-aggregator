@@ -1,6 +1,6 @@
 {
 	"defaultEnvironments": [
-		{ "environment": "live", "pipelines": ["Live", "Telford"] },
+		{ "environment": "live", "pipelines": ["Live", "Telford", "Production"] },
 		{ "environment": "QA", "pipelines": ["(-|\\.)QA"] },
 		{ "environment": "CI", "pipelines": ["(-|\\.)CI"] }
 	],
@@ -24,9 +24,9 @@
 		},
 		{
 			"name": "HotelDistribution",
-			"groups": ["Hotel-Distribution"],
+			"groups": ["Hotel\\-Distribution"],
 			"environments": [
-				{ "environment": "live-accuracy-test", "pipelines": ["^Internal.GLR-Live-Accuracy-Tests$"] }
+				{ "environment": "live-accuracy-test", "pipelines": ["^Internal\\.GLR\\-Live\\-Accuracy\\-Tests$"] }
 			]
 		}
 	]
