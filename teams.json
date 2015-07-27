@@ -7,7 +7,7 @@
 	"teams": [
 		{
 			"name": "IO",
-			"groups": ["Elasticsearch", "Kafka"],
+			"groups": ["^Elasticsearch$", "^Kafka$"],
 			"environments": [
 				{ "environment": "live", "pipelines": ["Kafka\\-AWS\\-Prod"] },
 				{ "environment": "QA", "pipelines": ["Kafka\\-AWS\\-QA"] },
@@ -17,14 +17,14 @@
 		},
 		{
 			"name": "Moonstick",
-			"groups": ["Moonstick.JS"],
+			"groups": ["^Moonstick\\.JS$"],
 			"environments": [
 				{ "environment": "live", "pipelines": ["^Moonstick-Live"] }
 			]
 		},
 		{
 			"name": "HotelDistribution",
-			"groups": ["Hotel\\-Distribution"],
+			"groups": ["^Hotel\\-Distribution"],
 			"environments": [
 				{ "environment": "live-accuracy-test", "pipelines": ["^Internal\\.GLR\\-Live\\-Accuracy\\-Tests$"] }
 			]
