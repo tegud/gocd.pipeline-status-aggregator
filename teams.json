@@ -1,8 +1,9 @@
 {
 	"defaultEnvironments": [
-		{ "environment": "live", "pipelines": ["Live", "Telford", "Production"] },
+		{ "environment": "CI", "pipelines": ["(-|\\.)CI"] },
 		{ "environment": "QA", "pipelines": ["(-|\\.)QA"] },
-		{ "environment": "CI", "pipelines": ["(-|\\.)CI"] }
+		{ "environment": "UAT", "pipelines": ["(-|\\.)UAT"] },
+		{ "environment": "live", "pipelines": ["Live", "Telford", "Production"] }
 	],
 	"teams": [
 		{
