@@ -24,10 +24,11 @@
 			]
 		},
 		{
-			"name": "HotelDistribution",
+			"name": "Hotel Distribution",
 			"groups": ["^Hotel\\-Distribution"],
 			"environments": [
-				{ "environment": "live-accuracy-test", "pipelines": ["^Internal\\.GLR\\-Live\\-Accuracy\\-Tests$"] }
+				{ "environment": "live-accuracy-test", "pipelines": ["^Internal\\.GLR\\-Live\\-Accuracy\\-Tests$"] },
+				{ "environment": "QA", "pipelines": ["^XMLFeeds\\-ApiIntegration\\-LiveBuild$"] }
 			]
 		}
 	]
