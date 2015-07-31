@@ -20,7 +20,8 @@
 			"name": "Moonstick",
 			"groups": ["^Moonstick\\.JS$"],
 			"environments": [
-				{ "environment": "live", "pipelines": ["^Moonstick-Live"] }
+				{ "environment": "live-test", "pipelines": ["^Live_Crater\\-Overseer"] },
+				{ "environment": "live", "pipelines": ["^Moonstick\\-Live"] }
 			]
 		},
 		{
