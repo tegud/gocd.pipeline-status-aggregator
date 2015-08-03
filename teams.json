@@ -31,6 +31,13 @@
 				{ "environment": "live-accuracy-test", "pipelines": ["^Internal\\.GLR\\-Live\\-Accuracy\\-Tests$"] },
 				{ "environment": "QA", "pipelines": ["^XMLFeeds\\-ApiIntegration\\-LiveBuild$"] }
 			]
+		},
+		{
+			"name": "Reservations",
+			"groups": ["^Reservations"],
+			"environments": [
+				{ "environment": "Build", "pipelines": ["^BookingWeb\\-Live$"] }
+			]
 		}
 	]
 }
