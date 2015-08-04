@@ -38,6 +38,13 @@
 			"environments": [
 				{ "environment": "Build", "pipelines": ["^BookingWeb\\-Live$"] }
 			]
+		},
+		{
+			"name": "Configuration",
+			"groups": ["^SecureConfigs$"],
+			"environments": [
+				{ "environment": "live-config", "pipelines": ["^SecureConfigsTelford$"] }
+			]
 		}
 	]
 }
