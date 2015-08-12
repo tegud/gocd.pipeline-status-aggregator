@@ -21,6 +21,7 @@
 			"groups": ["^Moonstick\\.JS$"],
 			"environments": [
 				{ "environment": "live-test", "pipelines": ["^Live_Crater\\-Overseer"] },
+				{ "environment": "wip", "pipelines": ["^Moonstick\\-Live\\-Master$"] },
 				{ "environment": "live", "pipelines": ["^Moonstick\\-Live"] }
 			]
 		},
