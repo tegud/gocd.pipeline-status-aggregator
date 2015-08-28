@@ -8,13 +8,17 @@
 	"teams": [
 		{
 			"name": "IO",
-			"groups": ["^Elasticsearch$", "^Kafka$"],
+			"groups": ["^Elasticsearch$", "^Logstash$", "^Kafka$"],
 			"environments": [
 				{ "environment": "live", "pipelines": ["Kafka\\-AWS\\-Prod"] },
 				{ "environment": "QA", "pipelines": ["Kafka\\-AWS\\-QA"] },
 				{ "environment": "Dev", "pipelines": ["KafkaStack\\.Chef\\.Upload"] },
 				{ "environment": "floor-11-server-cupboard", "groups": [".*"] }
 			]
+		},
+		{
+			"name": "Search",
+			"groups": ["^Product\-Team\-Search$"]
 		},
 		{
 			"name": "Moonstick",
