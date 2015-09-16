@@ -8,7 +8,7 @@
 	"teams": [
 		{
 			"name": "IO",
-			"groups": ["^Elasticsearch$", "^Logstash$", "^Kafka$"],
+			"groups": ["^Elasticsearch$", "^Logstash$", "^Kafka$", "^Icinga$", "^Webhooks$"],
 			"environments": [
 				{ "environment": "live", "pipelines": ["Kafka\\-AWS\\-Prod"] },
 				{ "environment": "QA", "pipelines": ["Kafka\\-AWS\\-QA"] },
