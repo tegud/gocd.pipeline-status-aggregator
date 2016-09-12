@@ -3,7 +3,7 @@
 		{ "environment": "CI", "pipelines": ["(-|\\.)CI"] },
 		{ "environment": "QA", "pipelines": ["(-|\\.)QA"] },
 		{ "environment": "UAT", "pipelines": ["(-|\\.)UAT"] },
-		{ "environment": "live", "pipelines": ["Live", "Telford", "Production"] }
+		{ "environment": "live", "pipelines": ["Live", "Telford", "Prod(uction)?"] }
 	],
 	"teams": [
 		{
