@@ -13,6 +13,7 @@
 				{ "environment": "live", "pipelines": ["Kafka\\-AWS\\-Prod"] },
 				{ "environment": "QA", "pipelines": ["Kafka\\-AWS\\-QA"] },
 				{ "environment": "Dev", "pipelines": ["KafkaStack\\.Chef\\.Upload"] },
+				{ "environment": "aws-images", "groups": ["VM-Images-AWS"] },
 				{ "environment": "floor-11-server-cupboard", "groups": [".*"] }
 			]
 		},
