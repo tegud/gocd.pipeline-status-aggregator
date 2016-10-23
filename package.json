@@ -22,13 +22,15 @@
     "redis-mock": "^0.3.0"
   },
   "dependencies": {
-    "amqp": "^0.2.0",
     "bluebird": "^2.1.2",
     "elasticsearch": "^10.1.3",
     "lodash": "^3.9.3",
     "logall": "0.0.1",
     "moment": "^2.6.0",
     "redis": "^0.10.3",
-    "rs-core": "^0.1.0"
+    "rs-amqp-listener": "^0.1.0",
+    "rs-amqp-publisher": "^0.1.0",
+    "rs-http-server": "^0.1.0",
+    "rs-core": "^2.0.0"
   }
 }
