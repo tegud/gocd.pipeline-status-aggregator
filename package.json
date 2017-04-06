@@ -28,8 +28,8 @@
     "logall": "0.0.1",
     "moment": "^2.6.0",
     "redis": "^0.10.3",
-    "rs-amqp-listener": "^0.1.0",
-    "rs-amqp-publisher": "^0.1.0",
+    "rs-amqp-listener": "^0.2.0",
+    "rs-amqp-publisher": "^0.3.2",
     "rs-http-server": "^0.1.0",
     "rs-core": "^2.0.0"
   }
