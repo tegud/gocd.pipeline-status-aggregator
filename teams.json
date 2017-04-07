@@ -7,8 +7,32 @@
 	],
 	"teams": [
 		{
+			"name": "Platform Engineering",
+			"groups": [
+				"^Johnsonator$", 
+				"^Alerting$", 
+				"^Go-Agents$", 
+				"^Rancher-Mgmt$", 
+				"^WASP$", 
+				"^Logstash$", 
+				"^Docker-Services$", 
+				"^DJ-Roomba$", 
+				"^ETCD-Mgmt$", 
+				"^hubot$", 
+				"^Dashboards$", 
+				"^Release-Management$", 
+				"^OnCall-Helper$", 
+				"^River-Styx$", 
+				"^Shoelace$", 
+				"^(Metric)?beat$"
+			],
+			"environments": [
+				{ "environment": "internal", "groups": [".*"] }
+			]
+		},
+		{
 			"name": "IO",
-			"groups": ["^(Metrics-)?Elasticsearch$", "^Logstash$", "^Kafka$", "^Alerting$", "^Icinga$", "^Webhooks$", "^Dashboards$", "^BotBuster$", "^VM-Images-AWS$"],
+			"groups": ["^UKFast-Base-VMs$", "^Infrastructure-Services$", "^Kafka$", "^Alerting$", "^Icinga$", "^Webhooks$", "^Dashboards$", "^BotBuster$", "^VM-Images-AWS$"],
 			"environments": [
 				{ "environment": "live", "pipelines": ["Kafka\\-AWS\\-Prod"] },
 				{ "environment": "QA", "pipelines": ["Kafka\\-AWS\\-QA"] },
