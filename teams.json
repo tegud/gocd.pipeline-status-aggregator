@@ -27,7 +27,7 @@
 				"^(Metric)?beat$"
 			],
 			"environments": [
-				{ "live": "internal", "groups": ["^Release-Management$"] },
+				{ "environment": "live", "groups": ["^Release-Management$"] },
 				{ "environment": "internal", "groups": [".*"] }
 			]
 		},
