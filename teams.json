@@ -40,7 +40,7 @@
 		},
 		{
 			"name": "Reservations",
-			"groups": ["^Reservations"],
+			"groups": ["^Reservations", "^Finance", "^Secure-Card-Portal", "^BookingWeb"],
 			"environments": [
 				{ "environment": "Build", "pipelines": ["^BookingWeb\\-Live$"] }
 			]
